@@ -9,7 +9,7 @@ variable edge_cluster_name {
 
 variable description {
   type = string
-  default = "Provisioned by Terraform Enterprise. DO NOT modify via the UI."
+  default = "Provisioned by Terraform Enterprise. DO NOT modify via the UI. (JSP)"
 }
 
 variable name {
