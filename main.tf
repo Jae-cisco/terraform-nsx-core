@@ -1,7 +1,7 @@
 provider "nsxt" {
-    host = "${var.nsx["ip"]}"
-    username = "${var.nsx["user"]}"
-    password = "${var.nsx["password"]}"
+    host = var.host
+    username = var.username
+    password = var.password
     allow_unverified_ssl = true
 }
 
