@@ -1,3 +1,10 @@
+provider "nsxt" {
+    host = "${var.nsx["ip"]}"
+    username = "${var.nsx["user"]}"
+    password = "${var.nsx["password"]}"
+    allow_unverified_ssl = true
+}
+
 data nsxt_policy_edge_cluster "this" {
   display_name = var.edge_cluster_name
 }
