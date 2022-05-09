@@ -2,7 +2,7 @@ provider "nsxt" {
     host = var.host
     username = var.username
     password = var.password
-    allow_unverified_ssl = true
+    allow_unverified_ssl = var.allow_unverified_ssl
 }
 
 data nsxt_policy_edge_cluster "this" {
