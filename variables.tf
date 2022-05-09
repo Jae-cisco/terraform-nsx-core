@@ -1,4 +1,17 @@
+
 variable allow_unverified_ssl {
+  type = string
+  default = true
+}
+variable host {
+  type = string
+  default = true
+}
+variable username {
+  type = string
+  default = true
+}
+variable password {
   type = string
   default = true
 }
